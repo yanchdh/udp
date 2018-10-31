@@ -7,7 +7,7 @@
 
 int main(int argc, char* argv[])
 {
-	UDPServer server("127.0.0.1", 3333);
+	UDPServer server("0.0.0.0", 3333);
 	server.loop();
 
 	return 0;
